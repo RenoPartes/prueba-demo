@@ -1,0 +1,26 @@
+# Dependencias y build (se regeneran dentro de la imagen)
+node_modules
+.next
+out
+
+# Secretos y entorno local — NUNCA entran a la imagen (las envs van por Coolify)
+.env
+.env.*
+!.env.local.example
+
+# Git y herramientas del agente
+.git
+.gitignore
+.claude
+.praxis
+.mcp.json
+
+# Artefactos de desarrollo / QA
+qa-screens
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
+
+# El propio Docker
+Dockerfile
+.dockerignore

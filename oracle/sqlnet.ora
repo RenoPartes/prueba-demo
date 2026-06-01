@@ -1,0 +1,5 @@
+# Permite a un cliente Oracle Instant Client 19+ autenticarse contra servidores
+# Oracle 11g (11.2.0.4) que usan verificadores de contrasena antiguos.
+# Sin esto, el 11g puede rechazar el login con ORA-28040.
+SQLNET.ALLOWED_LOGON_VERSION_CLIENT = 11
+SQLNET.ALLOWED_LOGON_VERSION_SERVER = 11

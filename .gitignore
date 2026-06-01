@@ -1,0 +1,24 @@
+# --- Dependencias ---
+node_modules/
+
+# --- Build de Next.js ---
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Entorno / SECRETOS (nunca se versionan) ---
+.env
+.env.*
+!.env.local.example
+
+# --- Herramientas del agente / Praxis ---
+.claude/
+.praxis/
+
+# --- Binarios nativos y artefactos ---
+*.node
+qa-screens/
+
+# --- Sistema operativo ---
+.DS_Store
