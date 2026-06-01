@@ -22,3 +22,6 @@ qa-screens/
 
 # --- Sistema operativo ---
 .DS_Store
+
+# --- Repo embebido por accidente (clon separado, no parte de este proyecto) ---
+/prueba demo/
